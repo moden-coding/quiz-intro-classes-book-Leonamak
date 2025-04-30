@@ -9,6 +9,7 @@ public class App {
                                    //COMMENT: The toString() method is called
 
         book1.borrowBook(); //OUTPUT: Book borrowed 
+        System.out.println(book1);
                             //COMMENT: The borrowBook() method of book1 is called, changing its availability and printing a message.
         book1.borrowBook(); //OUTPUT: Book is not available 
                             //COMMENT: The borrowBook() method of book1 is called but it has already been checked out, so its status does not change. Then prints a message.
